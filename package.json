@@ -1,0 +1,17 @@
+{
+  "name": "learn-rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js -w"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Hugues Tavernier",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-json": "^6.0.1",
+    "rollup": "^4.4.1"
+  }
+}
