@@ -31,11 +31,13 @@ export default defineConfig({
       return false
     },
     load(id) {
-
       return null;
     },
     transform(code, id) {
       return null
+    },
+    moduleParsed(moduleInfo) {
+      const foo = null;
     }
   }]
 })
